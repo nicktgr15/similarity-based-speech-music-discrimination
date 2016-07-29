@@ -1,4 +1,4 @@
-# Audio-driven, similarity-based Speech/Music discriminator of multimedia content using supervised learning
+# Audio-driven, similarity-based Speech/Music discrimination of multimedia content using supervised learning
 
 ### Supported OS
 
