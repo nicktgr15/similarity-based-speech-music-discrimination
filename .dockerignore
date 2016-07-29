@@ -1,0 +1,6 @@
+env/*
+datasets/gtzan/*
+datasets/labrosa/*
+datasets/mirex/*
+tmp/*
+.git/*

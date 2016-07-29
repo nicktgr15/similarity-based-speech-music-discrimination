@@ -1,0 +1,9 @@
+*.wav
+*.csv
+*.tar.gz
+*.tgz
+*.zip
+env/*
+workspace/*
+datasets/**/*.txt
+.idea/*

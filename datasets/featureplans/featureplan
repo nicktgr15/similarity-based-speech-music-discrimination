@@ -1,0 +1,6 @@
+zcr: ZCR stepSize=1024 blockSize=1024 > StatisticalIntegrator NbFrames=16 StepNbFrames=16
+spectral_rollof: SpectralRolloff stepSize=1024 blockSize=1024 > StatisticalIntegrator NbFrames=16 StepNbFrames=16
+flux: SpectralFlux stepSize=1024 blockSize=1024 > StatisticalIntegrator NbFrames=16 StepNbFrames=16
+energy_stats: Energy stepSize=1024 blockSize=1024 > StatisticalIntegrator NbFrames=16 StepNbFrames=16
+spectral_flatness_per_band: SpectralFlatnessPerBand stepSize=1024 blockSize=1024 > StatisticalIntegrator NbFrames=16 StepNbFrames=16
+mfcc_stats: MFCC stepSize=1024 blockSize=1024 > StatisticalIntegrator NbFrames=16 StepNbFrames=16

@@ -1,0 +1,7 @@
+sac
+numpy
+scipy
+scikit-learn
+sympy
+peakutils
+pandas
