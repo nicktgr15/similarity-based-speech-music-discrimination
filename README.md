@@ -10,11 +10,11 @@
 * Install Docker: https://docs.docker.com/installation/
 * Verify that docker is working properly by running the hello-world docker container: ```docker run hello-world```
 
-### Execution 
-
 **Note**
 
 The ```-v host-machine-directory-or-file:container-directory-or-file``` docker parameter used in the following commands allows to mount a directory from the host machine to the docker container in order to be able to process its contents and return the generated results back to the host machine.  
+
+### Execution 
 
 Use the following format:
 
