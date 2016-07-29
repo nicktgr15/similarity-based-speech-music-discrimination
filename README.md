@@ -14,7 +14,7 @@
 
 **Note**
 
-The ```-v host-machine-directory-or-file:container-directory-or-file``` docker parameter used in the following commands allows to mount a directory from the host machine to the docker container in order to be able to process its contents in the container. In the same way a directory from the host machine is mounted in the container in order to be able to return the results generated in the container back to the host machine.  
+The ```-v host-machine-directory-or-file:container-directory-or-file``` docker parameter used in the following commands allows to mount a directory from the host machine to the docker container in order to be able to process its contents and return the generated results back to the host machine.  
 
 Use the following format:
 
