@@ -16,9 +16,14 @@ The ```-v host-machine-directory-or-file:container-directory-or-file``` docker p
 
 ### Usage 
 
-Use the following format:
+Pull docker image from docker-hub:
+```
+docker pull nicktgr15/similarity-based-speech-music-discrimination
+```
 
-```docker run --rm -v /abs/path/to/input/dir:/abs/path/to/input/dir nicktgr15/speech-music-discriminatior python /opt/speech-music-discrimination/speech-music-discriminator.py --input-file /abs/path/to/input/file```
+Analyse a multimedia file using the following format:
+
+```docker run --rm -v /abs/path/to/input/dir:/abs/path/to/input/dir nicktgr15/similarity-based-speech-music-discrimination python /opt/speech-music-discrimination/speech-music-discriminator.py --input-file /abs/path/to/input/file```
 
 The results will become available under ```/abs/path/to/input/dir/annotated-segments.txt```.
 
